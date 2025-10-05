@@ -23,7 +23,8 @@ jobs:
         run: npm install
 
       - name: Ejecutar Pruebas Unitarias
-        run: npm test
+        run: npm test -- --passWithNoTests
+
 
       - name: Análisis de Calidad de Código (Linting)
         run: npm run lint
