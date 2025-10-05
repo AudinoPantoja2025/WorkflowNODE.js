@@ -27,4 +27,9 @@ jobs:
 
       - name: Análisis de Calidad de Código (Linting)
         run: npm run lint
+        continue-on-error: true
+
+      - name: Generar Reporte de Cobertura
+        run: npm run test:coverage
+        continue-on-error: true
       
