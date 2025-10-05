@@ -1,0 +1,125 @@
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Cobertura de pruebas
+coverage/
+*.lcov
+.nyc_output
+
+# Instrumentación de eslint cache
+.eslintcache
+
+# Archivos de cache de Microbundle
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Directorio de dependencias opcionales de npm
+.npm
+
+# Cache de ESLint
+.eslintcache
+
+# Cache de Stylelint
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Archivos de configuración de dotenv
+.env
+
+# Archivos de configuración de parcel-bundler
+.cache
+.parcel-cache
+
+# Archivos de Next.js build
+.next
+
+# Archivos de Nuxt.js build / generate
+.nuxt
+dist
+
+# Archivos de Gatsby
+.cache/
+public
+
+# Archivos de Vuepress build
+.vuepress/dist
+
+# Directorio de Serverless
+.serverless/
+
+# Archivos de FuseBox cache
+.fusebox/
+
+# Archivos de DynamoDB Local
+.dynamodb/
+
+# Archivos de TernJS port
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Archivos específicos del sistema operativo
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Linux
+*~
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
